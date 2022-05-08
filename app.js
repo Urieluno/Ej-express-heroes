@@ -28,8 +28,8 @@ app.get('/hamilton', (req, res) => {
     res.sendFile(path.join(__dirname, 'DH-Heroes/views/hamilton.html'));
 });
 
-app.get('/hopper', (req, res) => {
-    res.sendFile(path.join(__dirname, 'DH-Heroes/views/hopper.html'));
+app.get('/hooper', (req, res) => {
+    res.sendFile(path.join(__dirname, 'DH-Heroes/views/hooper.html'));
 });
 
 app.get('/lovelace', (req, res) => {
